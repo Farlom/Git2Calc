@@ -17,10 +17,10 @@ int main()
     //feature бесконечный калькулятор
     if (symbol != '+' and symbol != '-' and symbol != '/' and symbol != '*'){
         do {
-            cout << (symbol != '+' and symbol != '-' and symbol != '/' and symbol != '*') << "this symbol is not ok, write new symbol: ";
+            cout << "this symbol is not ok, write new symbol: ";
             cin >> x1 >> symbol >> x2;
 
-        } while (!(symbol != '+' or symbol != '-' or symbol != '/' or symbol != '*'));
+        } while ((symbol != '+' and symbol != '-' and symbol != '/' and symbol != '*'));
 
     }
 
