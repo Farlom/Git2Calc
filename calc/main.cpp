@@ -11,11 +11,12 @@ int main()
     cin >> x1 >> symbol >> x2;
 
     //feature сделать проверку символа
+    //feature бесконечный калькулятор
 
     switch(symbol)
     {
     case '+':
-        cout << "This function is not ready yet.";
+        cout << x1 << ' ' << symbol << ' ' << x2 << " = " << Sum(x1, x2);
         break;
 
     case '-':
