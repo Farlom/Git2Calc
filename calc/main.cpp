@@ -1,4 +1,5 @@
 #include <iostream>
+#include <funcs.h>
 
 using namespace std;
 
@@ -14,16 +15,20 @@ int main()
     switch(symbol)
     {
     case '+':
-        cout << 'Функция в разработке';
+        cout << "This function is not ready yet.";
+        break;
 
     case '-':
-        cout << 'Функция в разработке';
+        cout << "This function is not ready yet.";
+        break;
 
     case '/':
-        cout << 'Функция в разработке';
+        cout << "This function is not ready yet.";
+        break;
 
     case '*':
-        cout << 'Функция в разработке';
+        cout << "This function is not ready yet.";
+        break;
     }
 }
 
