@@ -5,7 +5,7 @@ using namespace std;
 
 float Sum(float a, float b)
 {
-    cout<<"This function is not ready yet.";
+    return a+b;
 }
 
 float Substract(float a, float b)
