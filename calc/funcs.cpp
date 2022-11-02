@@ -15,7 +15,7 @@ float Substract(float a, float b)
 
 float Multiply(float a, float b)
 {
-    cout<<"This function is not ready yet.";
+    return a*b;
 }
 
 float Division(float a, float b)

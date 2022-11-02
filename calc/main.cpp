@@ -27,7 +27,7 @@ int main()
         break;
 
     case '*':
-        cout << "This function is not ready yet.";
+        cout << x1 << ' ' << symbol << ' ' << x2 << " = " << Multiply(x1, x2);
         break;
     }
 }
