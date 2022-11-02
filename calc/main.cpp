@@ -24,7 +24,7 @@ int main()
         break;
 
     case '/':
-        cout << "This function is not ready yet.";
+        cout << x1 << ' ' << symbol << ' ' << x2 << " = " << Division(x1, x2);
         break;
 
     case '*':
